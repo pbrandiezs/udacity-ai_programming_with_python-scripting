@@ -11,5 +11,5 @@ choices = [[2, 6, -2],
 
 for w1, w2, b in choices:
     probability = w1 * 0.4 + w2 * 0.6 + b
-    print("w1: {}, w2: {}, b: {}, probability: {}, sigmoid_probability: {}".format(w1, w2, b, probability, sigmoid(probability)))
+    print("w1: {}, w2: {}, b: {}, probability: {:.2f}, sigmoid_probability: {:.2f}".format(w1, w2, b, probability, sigmoid(probability)))
 
